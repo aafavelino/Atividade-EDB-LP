@@ -11,7 +11,7 @@
 		auto cont3 ( 0u );
 		auto cont4 ( 0u );
 			
-			cout << "Entre com valores inteiros (Ctrl+d p/ encerrar): " << endl;
+			std::cout << "Entre com valores inteiros (Ctrl+d p/ encerrar): " << endl;
 			
 			while(cin >> number){
 				

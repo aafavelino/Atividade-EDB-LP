@@ -30,7 +30,16 @@ int mdc (int a, int b){
 	if(b == 0)
 		return a;
 	else
-		return mdc(b, a%b)
+		return mdc(b, a%b);
+}
+
+//mmc: Retorna o Mınimo Multiplo Comum de 3 numeros recebidos como parametros.
+
+int mmc (int a, int b){
+	if(b == 0)
+		return a;
+	else
+		return (a*b)/mdc(b, a%b);
 }
 
 //Fatorial: Retorna o fatorial do número recebido como parâmetro.

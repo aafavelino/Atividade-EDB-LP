@@ -27,7 +27,11 @@ using namespace std;
 	}
 
 	void shift_n(int *n1, int *n2, int *n3, int *n4, int d) {
-					int aux;
+			
+			int aux;
+
+			d = d % 4;
+
 			if (d > 0)
 			{
 				for (int i = 0; i < d; ++i)
@@ -48,5 +52,5 @@ using namespace std;
 						*n3=*n4;
 						*n4=aux;
 					}
-		}
+			}
 	}

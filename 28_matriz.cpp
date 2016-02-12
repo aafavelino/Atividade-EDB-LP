@@ -38,7 +38,7 @@ using namespace std;
 			{
 				for (int j = 0; j < count; ++j)
 				{
-					soma+=M[i],M[i];
+					soma+=M[i]M[j];
 				}
 			}
 

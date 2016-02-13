@@ -12,14 +12,16 @@ using namespace std;
 
 	int main(){
 
-		char str[] = "Gosto de programar em C++";
+			char *str =  new char[sizeof(char) * 10];
 
-				int n;
+			gets(str);
 
-				std::cout << "Informe o valor de 'n': ";
-				std::cin >> n;
+			int n;
 
-		 		std::cout << ">>> " << prefix(str, n) << endl;
+			std::cout << "Informe o valor de 'n': ";
+			std::cin >> n;
+
+	 		std::cout << ">>> " << prefix(str, n) << endl;
 
 		return EXIT_SUCCESS;
 	}
@@ -33,14 +35,14 @@ using namespace std;
    		if (n < strlen(str))
    		{
 		   	
-		   		for (int i = 0; i < n+1; ++i)
+		   		for (int i = 0; i < n; ++i)
 		   		{
 		   		 	newstring[i] = str[i];
 		   		}  
 		   			return newstring;		
    		}else{
 
-		   		for (int i = 0; i < 26; ++i)
+		   		for (int i = 0; i < strlen(str); ++i)
 		   		{
 		   		 	sss[i] = str[i];
 		   		}  

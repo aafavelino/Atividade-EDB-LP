@@ -20,9 +20,6 @@
 		std::cout << endl;
 
 		shiftString(str);
-
-
-
 		
 		return EXIT_SUCCESS;
 	}
@@ -39,5 +36,4 @@
 				std::cout << str[i];
 			}
 		}
-
 	}

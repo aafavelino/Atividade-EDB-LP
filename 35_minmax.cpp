@@ -6,8 +6,6 @@
 
 			int n, contador = 1, max = 0, min = 0, guardai = 0;
 
-			
-
 			int matriz [10][10];
 
 				for (int i = 0; i < 10; ++i)

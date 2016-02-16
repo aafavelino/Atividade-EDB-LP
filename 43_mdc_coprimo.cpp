@@ -7,7 +7,6 @@ int mdc(int m, int n);
 		std::cout << ">>> MDC: "<< mdc(3,2) <<endl;
 		std::cout << (mdc(3,2) == 1 ? 1:0) << endl;
 
-
 		return EXIT_SUCCESS;
 	}
 

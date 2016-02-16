@@ -55,9 +55,5 @@
 				}
 				std::cout << ">>> O menor elemento está na linha " << guardai << " onde está o maior elemento, "<< max << ",é: " << min;
 
-
-
-
-
 			return EXIT_SUCCESS;
 		}

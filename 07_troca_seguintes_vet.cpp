@@ -37,6 +37,5 @@
 					std::cout << vet[i] << " ";
 				}
 
-
 			return EXIT_SUCCESS;
 		}

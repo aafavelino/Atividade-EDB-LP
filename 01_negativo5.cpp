@@ -20,6 +20,7 @@ using namespace std;
 		}
 
 		std::cout << ">>>A Quantidade de números negativos foram " << counter << " de um total de " << count << " números digitados.";
+
 		
 		return EXIT_SUCCESS;
 	}

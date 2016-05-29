@@ -1,7 +1,5 @@
 #include <iostream>
-
 #define count 5
-
 using namespace std;
 	
 	int main(){
